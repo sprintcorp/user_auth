@@ -40,7 +40,7 @@
         methods: {
             onSubmit () {
                 this.$store.dispatch('signin',this.formdata);
-                console.log(this.formdata)
+
             }
         }
     }
